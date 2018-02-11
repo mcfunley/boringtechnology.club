@@ -140,3 +140,25 @@ footer p {
   text-align: center;
   font-size: 0.8rem;
 }
+
+
+a {
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+
+
+.club-index {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 20px 20px;
+  font-weight: 500;
+}
+.club-index a {
+  text-decoration: none;
+}
+.club-index a:hover {
+  text-decoration: underline;
+}
