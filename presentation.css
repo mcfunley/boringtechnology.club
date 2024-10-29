@@ -95,9 +95,25 @@ header .share {
 footer .share {
   margin: 0 auto 40px auto;
 }
+.bsky {
+  display: inline-flex;
+  align-items: center;
+}
+.bsky .handle {
+  margin-left: 10px;
+}
+.share a, .share a:visited {
+  color: #333;
+  font-weight: 500;
+}
+.share a:hover {
+  text-decoration: none;
+  color: #555;
+}
 .share {
   text-align: center;
 }
+
 
 header p {
   padding: 0 100px 20px 100px;
